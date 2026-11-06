@@ -1,0 +1,25 @@
+name: Task
+description: A specific, well-scoped piece of work that is not a bug or a feature (docs, tests, tooling, ops, cleanup).
+type: Task
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What this is and why it is needed now. Link the parent Epic.
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      description: Checkable acceptance criteria.
+      value: |
+        - [ ] 
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Links, commands, files or dependencies.

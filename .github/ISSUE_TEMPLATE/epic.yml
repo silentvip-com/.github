@@ -1,0 +1,42 @@
+name: Epic
+description: A shippable body of work that groups Features, Tasks and Bugs (add them as sub-issues).
+title: "[Epic]: "
+type: Epic
+body:
+  - type: markdown
+    attributes:
+      value: |
+        An Epic is a shippable outcome, usually a few weeks of work. Add its Features, Tasks and Bugs as **sub-issues**, and add this Epic as a sub-issue of its **Initiative**.
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What is true for users or the business when this ships.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: The pieces of work, as a checklist. Convert each to a sub-issue as it is picked up.
+      value: |
+        - [ ] 
+    validations:
+      required: true
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Out of scope
+      description: What this Epic deliberately does not cover.
+  - type: textarea
+    id: metrics
+    attributes:
+      label: Success metrics
+      description: How we will know it worked (adoption, conversion, error rate, review approval, and so on).
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Links
+      description: Parent Initiative, designs, docs, dependencies.

@@ -1,0 +1,75 @@
+name: Bug
+description: Something in a silentVIP product behaves wrongly.
+title: "[Bug]: "
+type: Bug
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Never paste traveler data (names, itineraries, passport or payment details), tokens, keys or session cookies here: use demo data or a redacted example.
+        A security vulnerability? Do not open an issue; follow the [security policy](https://github.com/silentvip-com/.github/blob/main/SECURITY.md).
+        Urgent help with a trip that's underway is the travel team's job, not an issue: https://www.silentvip.com/travel-support
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: A clear description of the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The address or screen, the role you were signed in as, and each step.
+      placeholder: |
+        1. Open …
+        2. Tap …
+        3. See …
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      multiple: true
+      options:
+        - iPhone (iOS)
+        - iPad (iPadOS)
+        - Mac (macOS)
+        - Apple Watch (watchOS)
+        - Android phone or tablet
+        - Wear OS
+        - Website (browser)
+        - Worker / API
+        - MCP server
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: App version and build, browser and OS, or the Worker version.
+      placeholder: "1.0 (3) on iOS 26.1 · Safari 19 · Worker 3a9053a2"
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and screenshots
+      description: Console output, `wrangler tail`, logcat or screenshots. Redact first. Text is formatted as code automatically.
+      render: text
+  - type: checkboxes
+    id: hygiene
+    attributes:
+      label: Before you submit
+      options:
+        - label: I searched existing issues and this is not a duplicate.
+          required: true
+        - label: This issue contains no personal data, secrets or tokens.
+          required: true

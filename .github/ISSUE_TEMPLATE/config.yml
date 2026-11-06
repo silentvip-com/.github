@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: silentVIP website
+    url: https://www.silentvip.com
+    about: Product information, pricing and how to get started.
+  - name: Urgent help with a trip that's underway
+    url: https://www.silentvip.com/travel-support
+    about: The travel team's urgent line. Issues are for the software, not live trips.
+  - name: Report a security vulnerability
+    url: https://www.silentvip.com/trust#disclosure
+    about: Please disclose privately; do not open a public issue.
