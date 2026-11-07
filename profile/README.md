@@ -29,6 +29,6 @@ Most repositories are private.
 
 - General: [www.silentvip.com](https://www.silentvip.com) · support@silentvip.com
 - Urgent help with a trip that's underway: [www.silentvip.com/travel-support](https://www.silentvip.com/travel-support)
-- Security: see the [security policy](https://github.com/silentvip-com/.github/blob/main/SECURITY.md); please do not open public issues for vulnerabilities.
+- Security: see the [security policy](https://github.com/silentvip-com/.github/blob/main/.github/SECURITY.md); please do not open public issues for vulnerabilities.
 
 Proprietary — © silentVIP LLC. All rights reserved.
