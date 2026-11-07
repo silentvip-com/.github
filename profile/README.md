@@ -2,7 +2,7 @@
 
 Corporate travel run by people you can name, for companies of about 100 to 1,000 employees: options with the full price and policy status, approvals, entity billing and reporting, and no supplier commissions.
 
-[Website](https://www.silentvip.com) · [silentVIP for Good](https://silentvip.org) · [Apps](https://www.silentvip.com/apps) · [Portfolio project board](https://github.com/orgs/silentvip-com/projects/5)
+[Website](https://www.silentvip.com) · [silentVIP for Good](https://silentvip.org) · [Apps](https://www.silentvip.com/apps)
 
 ## What we build
 
